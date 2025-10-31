@@ -1,0 +1,29 @@
+website:
+  title: "My Beautiful Webpage"
+  author: "Siva"
+  description: "A simple, elegant example webpage defined in YAML"
+
+  theme:
+    background_color: "#f5f5f5"
+    text_color: "#333333"
+    accent_color: "#4CAF50"
+    font_family: "Arial, sans-serif"
+
+  header:
+    logo: "https://example.com/logo.png"
+    navigation:
+      - name: "Home"
+        link: "/"
+      - name: "About"
+        link: "/about"
+      - name: "Contact"
+        link: "/contact"
+
+  sections:
+    - title: "Welcome"
+      content: "This is the introduction section of the webpage. YAML makes configuration easy and readable."
+    - title: "Features"
+      content: "✔️ Simple\n✔️ Flexible\n✔️ Human-readable"
+    - title: "Footer"
+      content: "© 2025 My Beautiful Webpage. All rights reserved."
+
